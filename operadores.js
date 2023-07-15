@@ -27,9 +27,6 @@ const edadPasajero = 17;
 const estaAcompañado = false;
 console.log(`verificando pasajes para ${ciudadaDestino}`);
 
-
-
-
     if(ciudadadesDisponibles.indexOf(ciudadaDestino) >= 0 && 
       (edadPasajero >= 18 || estaAcompañado)){
         console.log("pasaje disponible para venta");
